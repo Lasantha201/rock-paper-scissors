@@ -41,7 +41,7 @@ while True:
     print("Computer pick " + str(computer_pick))
 
     # check the conditions for decide win
-    if user_inputs == "rock" and computer_pick == "paper":
+    if user_inputs == "rock" and computer_pick == "scissors":
         print("Congrates, You Won!!")
         user_wins += 1
 
